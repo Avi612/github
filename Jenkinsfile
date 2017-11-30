@@ -1,10 +1,10 @@
-Jenkinsfile (Declarative Pipeline)
+Jenkinsfile (Declarative pipeline)
 pipeline { 
     agent any  
     stages { 
         stage('Build') { 
             steps { 
-               echo 'This is a minimal Pipeline.' 
+               echo 'This is a minimal pipeline.' 
             }
         }
     }
