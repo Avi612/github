@@ -4,7 +4,7 @@ pipeline {
         stage('Build') { 
             steps { 
                echo 'This is a minimal pipeline.' 
-         stage('maven') {
+         stage('compile') {
              steps {
                  sh 'mvn install'
                   }
