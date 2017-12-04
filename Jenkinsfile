@@ -6,10 +6,10 @@ pipeline {
                echo 'This is a minimal pipeline.' 
          stage('maven') {
              steps {
-               sh 'mvn install'
+                 sh 'mvn install'
                }       
             }
         }
     }
 }
-}
+
