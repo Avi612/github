@@ -25,7 +25,7 @@ public class primenumbersTest
      */
     public static Test suite()
     {
-        return new TestSuite( AppTest.class );
+        return new TestSuite( primenumbersTest.class );
     }
 
     /**
